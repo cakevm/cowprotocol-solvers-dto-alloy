@@ -1,6 +1,7 @@
 use alloy_primitives::{Address, Bytes, FixedBytes, B256, U256};
-use serde::Deserialize;
-use {serde::Serialize, serde_with::serde_as, std::collections::HashMap};
+use serde::{Deserialize, Serialize};
+use serde_with::serde_as;
+use std::collections::HashMap;
 
 #[derive(Default, Debug, Clone, Serialize, Deserialize)]
 #[serde(rename_all = "camelCase")]

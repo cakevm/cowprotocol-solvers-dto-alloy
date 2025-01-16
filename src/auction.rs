@@ -1,6 +1,5 @@
 use crate::order_uid::OrderUid;
-use alloy_primitives::bytes::Bytes;
-use alloy_primitives::{Address, B256, U256};
+use alloy_primitives::{Address, B256, U256, Bytes};
 use bigdecimal::BigDecimal;
 use serde::{Deserialize, Serialize};
 use serde_with::serde_as;
