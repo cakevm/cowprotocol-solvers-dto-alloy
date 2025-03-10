@@ -11,5 +11,12 @@ allow = [
   "CC0-1.0",
 ]
 
+[advisories]
+ignore = [
+  # https://rustsec.org/advisories/RUSTSEC-2024-0436 paste! is unmaintained
+  "RUSTSEC-2024-0436",
+]
+yanked = "warn"
+
 [bans]
 multiple-versions = "allow"
